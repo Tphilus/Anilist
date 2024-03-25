@@ -30,11 +30,11 @@ export default function SearchBox({ setSearchTerm }: Props) {
           placeholder="Search..."
           value={inputValue}
           onChange={handleChange}
-          className="px-6 md:px-8 py-4 border bg-transparent border-cyan-500 forced-colors:border-cyan-500 rounded-2xl mr-4"
+          className="px-3 md:px-8 py-4 border bg-transparent border-cyan-500 forced-colors:border-cyan-500 rounded-2xl mr-4"
         />
         <button
           type="submit"
-          className=" px-5 md:px-8 py-4 text-white bg-cyan-500 rounded-2xl"
+          className=" px-3 md:px-8 py-4 text-white bg-cyan-500 rounded-2xl"
         >
           Search
         </button>
